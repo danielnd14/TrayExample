@@ -12,7 +12,6 @@ public final class TrayMenu {
 	private final SystemTray systemTray;
 
 	public TrayMenu() {
-		//SystemTray.ENABLE_ROOT_CHECK = false
 		systemTray = SystemTray.get();
 		init();
 	}
